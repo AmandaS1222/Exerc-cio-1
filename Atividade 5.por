@@ -1,13 +1,17 @@
 programa {
   funcao inicio() {
-    // Variável
+    // VariÃ¡vel
     real primeiro_numero, segundo_numero
     
-    
-    
-    primeiro_numero = escreva("Digite um número: ")
-    segundo_numero = escreva("Digite outro número: ")
-    operacao = escreva("Digite qual operação deseja realizar: ")
+    // Solucionando dados
+    escreva("Digite um nÃºmero: ")
+    leia(primeiro_numero)
+
+    escreva("Digite outro nÃºmero: ")
+    leia(segundo_numero)
+
+    escreva("Digite qual operaÃ§Ã£o deseja realizar: ")
+    leia(operacao)
     
     operacao == "+":
     resultado = primeiro_numero1 + segundo_numero
