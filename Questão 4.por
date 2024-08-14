@@ -1,7 +1,9 @@
 programa {
   funcao inicio() {
-     real preco_Maca, preco_Morango, peso_Maca, peso_Morango, total_Morango, total_Maca, final
+    // Variável
+    real preco_Maca, preco_Morango, peso_Maca, peso_Morango, total_Morango, total_Maca, final
 
+    // Solicitando dados
     preco_Maca = 1.8
     preco_Morango = 2.5
 
@@ -11,6 +13,7 @@ programa {
     escreva("\nQuantos Kilos de Maca : ")
       leia(peso_Maca)
 
+    // Calculando
     se (peso_Morango > 5){
       total_Morango = (preco_Morango - 0.3) * peso_Morango
     } senao {
@@ -31,6 +34,7 @@ programa {
       final =  total_Morango + total_Maca
     }
 
+    // Resultado
     escreva("\nPreco Final da Compra :  R$ ", final)
   }
 }
