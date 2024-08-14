@@ -1,17 +1,20 @@
 programa {
   funcao inicio() {
+    // Vari√°vel
     cadeia nome
     real unidade_produto, preco_unitario, soma_total, valor_total, desconto
 
+    // Solucionando dados
     escreva("Digite o nome do produto: ")
     leia(nome)
 
     escreva("Digite a unidade do produto: ")
     leia(unidade_produto)
 
-    escreva("Digite o preÁo unit·rio do item: ")
+    escreva("Digite o pre√ßo unit√°rio do item: ")
     leia(preco_unitario)
 
+    // Calculando
     soma_total = unidade_produto * preco_unitario
 
     se (unidade_produto <= 5){
