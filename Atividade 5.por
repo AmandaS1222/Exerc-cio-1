@@ -1,7 +1,8 @@
 programa {
   funcao inicio() {
     // Variável
-    real primeiro_numero, segundo_numero
+   real primeiro_numero, segundo_numero, resultado
+    caracter operacao
     
     // Solucionando dados
     escreva("Digite um número: ")
@@ -12,24 +13,25 @@ programa {
 
     escreva("Digite qual operação deseja realizar: ")
     leia(operacao)
-    
-    operacao == "+":
-    resultado = primeiro_numero1 + segundo_numero
-    
-    operacao == "-":
+
+    // Calculando a operação
+    se (operacao == "+"){
+    resultado = primeiro_numero + segundo_numero
+    }
+    se (operacao == "-"){
     resultado = primeiro_numero - segundo_numero
+    }
     
-    operacao == "*":
+    se (operacao == "*"){
     resultado = primeiro_numero * segundo_numero
+    }
     
-    operacao == "/":
+    se (operacao == "/"){
     resultado = primeiro_numero / segundo_numero
-    
-    
+    }  
 
-
-
-
+    // Resultado
+    escreva("Resultado: " , resultado)
 
   }
 }
