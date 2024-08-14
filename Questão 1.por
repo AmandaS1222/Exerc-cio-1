@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+    // Vari√°vel
     inteiro a, b, c, maior, menor 
 
     // Solicitando dados
@@ -16,11 +17,11 @@ programa {
     // Calculando
 
     se (a + b < c){
-      escreva("O valor C È maior")
+      escreva("O valor C √© maior")
     }
 
     se (a + b > c){
-      escreva("O valor C È menor")
+      escreva("O valor C √© menor")
     }
   }
 }
