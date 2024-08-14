@@ -1,24 +1,28 @@
 programa {
   funcao inicio() {
+    // Vari√°vel
     real primeira_nota, segunda_nota, media
-    
+
+    // Solucionando dados
     escreva("Primeira nota: ")
     leia(primeira_nota)
     
     escreva("Segunda nota: ")
     leia(segunda_nota)
 
+    // Calculando
     media = (primeira_nota + segunda_nota) / 2
     
     se (media < 4)
     escreva("REPROVADO.")
 
     se (media == 4)
-    escreva("RECUPERA«√O.")
+    escreva("RECUPERA√á√ÉO.")
     
     se (media >= 6)
     escreva("APROVADO!")
-    
+
+    // Resultado
     escreva("media: ",media)
   }
 }
